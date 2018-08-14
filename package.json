@@ -1,0 +1,15 @@
+{
+  "name": "tscinstall",
+  "version": "1.0.0",
+  "description": "sample project that compiles TypeScript files after installing npm modules",
+  "main": "dist/app.js",
+  "scripts": {
+    "postinstall": "tsc"
+  },
+  "author": "in4margaret",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^1.8.10"
+  },
+  "devDependencies": {}
+}
